@@ -14,6 +14,7 @@ import {RoundProgressModule} from 'angular-svg-round-progressbar';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -37,7 +38,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     [RoundProgressModule],
-    NgCircleProgressModule.forRoot()
+    NgCircleProgressModule.forRoot(),
+    AppRoutingModule
    
   ],
   providers: [],
