@@ -1,9 +1,13 @@
-<div class="row">
-    <div class="col-sm-2 col-md-2 col-lg-12">
-        <a href="https://github.com/wgenia" target="blank"><img src="../../../assets/githubLogo.png" id="githubLogo"></a>
-        <a href="https://www.linkedin.com/in/eugenia-wagner/" target="blank"><img src="../../../assets/inLogo.png" id="inLogo"></a>
-        <button class="btn btn-success mx-3 px-3">
+
+    <div class="col-sm-8 col-md-6 col-lg-12">
+        <app-logo-ap></app-logo-ap>
+        <div class="col-sm-4 col-md-3 col-lg-2" id="botones">
+            <a href="https://github.com/wgenia" target="blank"><img src="../../../assets/githubLogo.png" id="githubLogo"></a>
+            <a href="https://www.linkedin.com/in/eugenia-wagner/" target="blank"><img src="../../../assets/inLogo.png" id="inLogo"></a>
+            <button class="btn btn-success mx-3 px-3" (click)="login()">
             Log In
-        </button>
+                </button>      
+        </div>
+        
     </div>
-</div>
+
